@@ -10,20 +10,22 @@ function App() {
     <>
       <div className="container">
         <div className="card">
-          <div className="profile-image-cont">
-            <img src={ProfileImage} className="profile-image"/>
-          </div>
-          <div className="profile-intro">
-            <h3 className="profile-name">
-              Sarah Dole
-            </h3>
-            <p className="profile-jd">
-              Front End Engineer @ Microsoft
+          <div className="profile-cont">
+            <div className="profile-image-cont">
+              <img src={ProfileImage} className="profile-image"/>
+            </div>
+            <div className="profile-intro">
+              <h3 className="profile-name">
+                Sarah Dole
+              </h3>
+              <p className="profile-jd">
+                Front End Engineer @ Microsoft
+              </p>
+            </div>
+            <p className="profile-desc">
+              I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.
             </p>
           </div>
-          <p className="profile-desc">
-            I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.
-          </p>
           <div className="reachout-container">
             <button className="contact-me-btn">
               Contact me
