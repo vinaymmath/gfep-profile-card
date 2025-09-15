@@ -20,14 +20,13 @@ body {
 .container{
   height: 100%;
   display: flex;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12.5rem 0;
 }
 
 .card{
+  margin-top: 12.5rem;
   width: 21.25rem;
   display: flex;
   flex-direction: column;
